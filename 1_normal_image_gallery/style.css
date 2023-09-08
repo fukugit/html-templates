@@ -1,7 +1,7 @@
 /* Common
 ----------------------*/
 .wrapper {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 4%;
 }
@@ -17,6 +17,7 @@ body {
 .header-content {
   display: flex;
   justify-content: space-between;
+  padding-top:20px;
 }
 .header-title{
   color: #E5D283;
@@ -42,14 +43,15 @@ body {
 /* article
 ----------------------*/
 .article-info {
-  background-color: #F0F0F0;
-  max-height: 1000px;
+  /* background-color: #F0F0F0; */
+  min-height: 1000px;
 }
 .article-content {
   padding-top: 10px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 15px 15px;
 }
 .item {
   cursor: pointer;
@@ -62,7 +64,7 @@ body {
 ----------------------*/
 .footer-info {
   background-color: #4F709C;
-  min-height: 100px;
+  min-height: 200px;
 }
 .footer-content {
   display: flex;
