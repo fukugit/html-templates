@@ -55,6 +55,12 @@ body {
 }
 .item {
   cursor: pointer;
+  max-width: 300px;
+  max-height: 300px;
+}
+.item img {
+  max-width: 300px;
+  max-height: 300px;
 }
 .item:hover {
   scale: 105%;
