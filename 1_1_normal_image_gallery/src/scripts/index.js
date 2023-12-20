@@ -1,5 +1,4 @@
 import '../styles/index.scss'
-import aaa from './rough-notation.js'
+import roughNotation from './rough-notation.js'
 
-console.log('webpack starterkit')
-aaa()
+roughNotation()

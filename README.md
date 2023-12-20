@@ -1,4 +1,5 @@
 # html-templates
+<img align="left" width="80" height="80" src="./img/hamburger.png">
 This project offers various types of HTML templates. Feel free to use any of these templates as a foundation for your web system.  
 
 ## Templates

@@ -34,3 +34,5 @@ When you run `npm run build` we use the [mini-css-extract-plugin](https://github
 ## Acnkyo
 https://github.com/rough-stuff/rough-notation
 
+https://github.com/alvarotrigo/fullPage.js
+
