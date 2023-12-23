@@ -48,6 +48,7 @@ jobs:
         uses: actions/configure-pages@v3
       - run: npm install cross-env
       - run: npm install webpack
+      - run: npm install webpack-cli
       - name: Build
         working-directory: ./1_portrait_page
         run: npm run build
