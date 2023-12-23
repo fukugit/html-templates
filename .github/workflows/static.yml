@@ -50,7 +50,11 @@ jobs:
       - run: npm install webpack
       - run: npm install webpack-cli
       - run: npm install mini-css-extract-plugin
-      - run: npm ci
+      - run: npm install clean-webpack-plugin
+      - name: Install
+        working-directory: ./1_portrait_page
+        run: npm ci
+      - name: Build
         working-directory: ./1_portrait_page
         run: npm run build
       - name: Deploy
