@@ -49,6 +49,7 @@ jobs:
       - run: npm install cross-env
       - run: npm install webpack
       - run: npm install webpack-cli
+      - run: npm install mini-css-extract-plugin
       - name: Build
         working-directory: ./1_portrait_page
         run: npm run build
