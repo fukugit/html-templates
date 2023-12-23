@@ -1,19 +1,12 @@
 # BurgerWeb Templates
-<table style="border: none">
-  <tbody style="border: none">
-    <tr style="border: none;">
-      <td valign="top" width="15%" style="border: none">
-      <img align="left" width="75" height="80" src="./img/hamburger.png">
-      </td>
-      <td valign="top" width="80%" style="border: none;">
+
+<img align="left" width="100" height="100" src="./img/hamburger.png">
 These HTML templates are designed with inspiration from a hamburger shop website, providing a modern and engaging look. They make extensive use of JavaScript libraries, along with essential tools like Webpack, Bootstrap, and Tailwind CSS.  
 I believe this collection will serve as a valuable cheat sheet for your web development endeavors.  
 Happy coding!
-      </td>
-    </tr>
-  </tbody>
-</table>
 
+---
+<br>
 
 
 
