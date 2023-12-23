@@ -4,8 +4,6 @@
 These HTML templates are designed with inspiration from a hamburger shop website, providing a modern and engaging look. They make extensive use of JavaScript libraries, along with essential tools like Webpack, Bootstrap, and Tailwind CSS.  
 I believe this collection will serve as a valuable cheat sheet for your web development endeavors.  
 Happy coding!
-
----
 <br>
 
 
