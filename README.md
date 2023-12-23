@@ -8,7 +8,7 @@ Happy coding!
 
 
 ## Welcome our burger shop!
-<img align="left" width="70" height="70" src="./img/hamburger2.png">
+<img align="right" width="70" height="70" src="./img/hamburger2.png">
 Below are HTML templates and a sample webpage using these templates.  
 <br><br><br>
 
