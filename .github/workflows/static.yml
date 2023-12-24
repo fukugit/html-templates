@@ -54,6 +54,7 @@ jobs:
 
       - run: git checkout -b gh-pages
       - run: git fetch origin gh-pages
+      - run: git pull origin gh-pages
       - run: git merge --allow-unrelated-histories main
       - name: Install
         working-directory: ./1_portrait_page
@@ -63,7 +64,7 @@ jobs:
         run: npm run build
       - run: git add .
       - run: git commit -m "Add dist" -a
-      - run: git pull origin gh-pages
+      
       - run: git push origin gh-pages
       # - name: Deploy
       #   uses: peaceiris/actions-gh-pages@v3
