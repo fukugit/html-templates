@@ -59,6 +59,7 @@ jobs:
         working-directory: ./1_portrait_page
         run: npm run build
       - run: git add .
+      - run: git push
       - run: git commit -m "Add dist" -a
       - run: git push origin main
       # - name: Deploy
