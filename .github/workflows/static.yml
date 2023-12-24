@@ -52,8 +52,8 @@ jobs:
       # - run: git branch -d gh-pages
       # - run: git branch gh-pages
 
-      - run: git checkout -b gh-pages
-      - run: git fetch origin gh-pages
+      - run: git checkout -b gh-pages origin/gh-pages
+      # - run: git fetch origin gh-pages
       - run: git pull
       - run: git merge --allow-unrelated-histories main
       - name: Install
