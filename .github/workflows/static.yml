@@ -49,7 +49,7 @@ jobs:
       - run: git pull
       - run: git checkout gh-pages
       - run: git pull
-      - run: git merge main
+      - run: git merge --allow-unrelated-histories origin/main
       - name: Install
         working-directory: ./1_portrait_page
         run: npm ci
