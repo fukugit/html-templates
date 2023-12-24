@@ -46,22 +46,24 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
-      - run: npm install cross-env
-      - run: npm install webpack
-      - run: npm install webpack-cli
-      - run: npm install mini-css-extract-plugin
-      - run: npm install clean-webpack-plugin
+      - run: git checkout gh-pages
+      - run: git pull
+      - run: git merge main
       - name: Install
         working-directory: ./1_portrait_page
         run: npm ci
       - name: Build
         working-directory: ./1_portrait_page
         run: npm run build
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./1_portrait_page/public
+      - run: git add .
+      - run: git commit -m "Add dist" -a
+      - run: git push origin main
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./1_portrait_page/public
+      
       # - run: npm ci
       # - run: npm run build
       # - run: git config user.name github-actions
