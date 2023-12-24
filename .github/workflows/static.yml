@@ -55,7 +55,8 @@ jobs:
       - run: git checkout -b gh-pages origin/gh-pages
       # - run: git fetch origin gh-pages
       - run: git pull
-      - run: git merge --allow-unrelated-histories main
+      # - run: git merge --allow-unrelated-histories main
+      - run: git reset --hard main
       - name: Install
         working-directory: ./1_portrait_page
         run: npm install
