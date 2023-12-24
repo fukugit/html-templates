@@ -54,7 +54,7 @@ jobs:
 
       - run: git checkout -b gh-pages
       - run: git fetch origin gh-pages
-      - run: git pull origin gh-pages
+      - run: git pull
       - run: git merge --allow-unrelated-histories main
       - name: Install
         working-directory: ./1_portrait_page
