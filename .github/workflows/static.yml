@@ -65,8 +65,7 @@ jobs:
         run: npm run build
       - run: git add .
       - run: git commit -m "Add dist" -a
-      - run: git pull
-      - run: git push origin gh-pages
+      - run: git push -f origin gh-pages
       # - name: Deploy
       #   uses: peaceiris/actions-gh-pages@v3
       #   with:
